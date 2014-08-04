@@ -1,0 +1,6 @@
+This file exists for a script to recognize a wikia internal pod.
+
+Those pods have a few restrictions:
+* classes shipped only in the Classes/ directory
+* resources shipped only in the Resources/ directory
+* Podfile "pod something" command doesn't have leading spaces 

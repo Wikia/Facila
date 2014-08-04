@@ -1,0 +1,17 @@
+PODS:
+  - Facila (0.0.4)
+  - XCAsyncTestCase (0.0.1)
+
+DEPENDENCIES:
+  - Facila (from `../`)
+  - XCAsyncTestCase
+
+EXTERNAL SOURCES:
+  Facila:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Facila: a5f16688f2fe39688336fb7d75bb4078296741c8
+  XCAsyncTestCase: ba895cb121b4d9fddceccd7c06f46a402241351f
+
+COCOAPODS: 0.33.1

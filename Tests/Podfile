@@ -1,0 +1,14 @@
+inhibit_all_warnings!
+
+xcodeproj 'Tests'
+workspace '../Facila'
+
+def import_facila_pod
+    pod 'Facila', :path => '../'
+end
+
+target 'FacilaTests' do
+    platform :ios, '6.0'
+    import_facila_pod
+    pod 'XCAsyncTestCase'
+end

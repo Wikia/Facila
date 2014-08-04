@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BA684C518884523004E2B45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA684C418884523004E2B45 /* Foundation.framework */; };
+		6BE4659FE4A2D55AFF954E64 /* FacilaModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE468689F5B7F710CEF1BE9 /* FacilaModule.m */; };
+		6BE466E47062850BE9ED94A1 /* FacilaContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE460ABAE50FBC64BA01EDA /* FacilaContext.m */; };
+		6BE46AC00DAD928944D950AC /* FacilaDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE4649086D627717D081DFE /* FacilaDispatcher.m */; };
+		6BE46E59C57F3D3E1FBADC9D /* FacilaActionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BE46DB2BC54CDDF69A51E7A /* FacilaActionHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3BA684BF18884523004E2B45 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3BA684C118884523004E2B45 /* libFacila.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFacila.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA684C418884523004E2B45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BA684D518884523004E2B45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3BA6853018884745004E2B45 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5B705CA9190BCA6A008E9522 /* Warnings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
+		6BE460ABAE50FBC64BA01EDA /* FacilaContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacilaContext.m; sourceTree = "<group>"; };
+		6BE460F29A3D9E9197451996 /* FacilaLayoutProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacilaLayoutProtocol.h; sourceTree = "<group>"; };
+		6BE46314A09911A883D565D3 /* FacilaModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacilaModule.h; sourceTree = "<group>"; };
+		6BE4649086D627717D081DFE /* FacilaDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacilaDispatcher.m; sourceTree = "<group>"; };
+		6BE46618F2552B2F126546C5 /* Facila-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Facila-Prefix.pch"; sourceTree = "<group>"; };
+		6BE46700C18FD05D99CB42BC /* FacilaContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacilaContext.h; sourceTree = "<group>"; };
+		6BE468689F5B7F710CEF1BE9 /* FacilaModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacilaModule.m; sourceTree = "<group>"; };
+		6BE468BD7D2D8059969F42E5 /* FacilaActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacilaActionHandler.h; sourceTree = "<group>"; };
+		6BE46AEAF8B62F60BD5D2023 /* Facila.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facila.h; sourceTree = "<group>"; };
+		6BE46C7EB985F3A6D6805AF2 /* FacilaModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacilaModuleProtocol.h; sourceTree = "<group>"; };
+		6BE46DB2BC54CDDF69A51E7A /* FacilaActionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacilaActionHandler.m; sourceTree = "<group>"; };
+		6BE46EDC4EC2EC11F397D861 /* FacilaDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacilaDispatcher.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BA684BE18884523004E2B45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA684C518884523004E2B45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BA684B818884523004E2B45 = {
+			isa = PBXGroup;
+			children = (
+				5B705CA9190BCA6A008E9522 /* Warnings.xcconfig */,
+				3BA684C318884523004E2B45 /* Frameworks */,
+				3BA684C218884523004E2B45 /* Products */,
+				6BE46E4A6ED215E66EBADD26 /* Classes */,
+			);
+			sourceTree = "<group>";
+		};
+		3BA684C218884523004E2B45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BA684C118884523004E2B45 /* libFacila.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BA684C318884523004E2B45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BA684C418884523004E2B45 /* Foundation.framework */,
+				3BA684D518884523004E2B45 /* UIKit.framework */,
+				3BA6853018884745004E2B45 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BE46E4A6ED215E66EBADD26 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6BE46AEAF8B62F60BD5D2023 /* Facila.h */,
+				6BE46314A09911A883D565D3 /* FacilaModule.h */,
+				6BE468689F5B7F710CEF1BE9 /* FacilaModule.m */,
+				6BE46618F2552B2F126546C5 /* Facila-Prefix.pch */,
+				6BE46EDC4EC2EC11F397D861 /* FacilaDispatcher.h */,
+				6BE4649086D627717D081DFE /* FacilaDispatcher.m */,
+				6BE468BD7D2D8059969F42E5 /* FacilaActionHandler.h */,
+				6BE46DB2BC54CDDF69A51E7A /* FacilaActionHandler.m */,
+				6BE460F29A3D9E9197451996 /* FacilaLayoutProtocol.h */,
+				6BE46C7EB985F3A6D6805AF2 /* FacilaModuleProtocol.h */,
+				6BE460ABAE50FBC64BA01EDA /* FacilaContext.m */,
+				6BE46700C18FD05D99CB42BC /* FacilaContext.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BA684C018884523004E2B45 /* Facila */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA684E418884523004E2B45 /* Build configuration list for PBXNativeTarget "Facila" */;
+			buildPhases = (
+				3BA684BD18884523004E2B45 /* Sources */,
+				3BA684BE18884523004E2B45 /* Frameworks */,
+				3BA684BF18884523004E2B45 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Facila;
+			productName = Facila;
+			productReference = 3BA684C118884523004E2B45 /* libFacila.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BA684B918884523004E2B45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Wikia;
+			};
+			buildConfigurationList = 3BA684BC18884523004E2B45 /* Build configuration list for PBXProject "Facila" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BA684B818884523004E2B45;
+			productRefGroup = 3BA684C218884523004E2B45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BA684C018884523004E2B45 /* Facila */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BA684BD18884523004E2B45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE4659FE4A2D55AFF954E64 /* FacilaModule.m in Sources */,
+				6BE46AC00DAD928944D950AC /* FacilaDispatcher.m in Sources */,
+				6BE46E59C57F3D3E1FBADC9D /* FacilaActionHandler.m in Sources */,
+				6BE466E47062850BE9ED94A1 /* FacilaContext.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3BA684E218884523004E2B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B705CA9190BCA6A008E9522 /* Warnings.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BA684E318884523004E2B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B705CA9190BCA6A008E9522 /* Warnings.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BA684E518884523004E2B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B705CA9190BCA6A008E9522 /* Warnings.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DSTROOT = /tmp/Facila.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Classes/Facila-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3BA684E618884523004E2B45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B705CA9190BCA6A008E9522 /* Warnings.xcconfig */;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DSTROOT = /tmp/Facila.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Classes/Facila-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BA684BC18884523004E2B45 /* Build configuration list for PBXProject "Facila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA684E218884523004E2B45 /* Debug */,
+				3BA684E318884523004E2B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA684E418884523004E2B45 /* Build configuration list for PBXNativeTarget "Facila" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA684E518884523004E2B45 /* Debug */,
+				3BA684E618884523004E2B45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BA684B918884523004E2B45 /* Project object */;
+}

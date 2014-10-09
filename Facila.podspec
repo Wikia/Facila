@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Classes'
   s.public_header_files = 'Classes/**/*.h'
-  s.platform     = :ios, '6.0'
+  s.platform     = :ios, '7.0'
 end
